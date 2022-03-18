@@ -10,11 +10,11 @@ touch utils/model.py
 touch utils/all_utils.py (keep all helper functions in all_utils folder)
 from utils.model import class
 touch requirements.txt
-conda create -n sagar python==3.8 -y
-conda activate sagar
+conda create -n linearRegression python==3.8 -y
+conda activate linearRegression
 pip freeze > requirements.txt
 pip install -r requirements.txt
-git add . && git commit -m "docstring updated" && git push origin main
+git add . && git commit -m "some commits" && git push origin main
 git remote -v #shows the remote repository URL
 git pull #to bring changes from remote repository and merge into local branch
 git branch -M # to rename current branch
